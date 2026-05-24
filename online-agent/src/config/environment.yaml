@@ -1,0 +1,23 @@
+shifts:
+  shift_duration: 480          # продолжительность рабочей смены, мин
+  work_duration_before_lunch: 240  # работа до обязательного обеда, мин
+  lunch_duration: 45           # продолжительность обеда, мин
+  min_rest_duration: 3         # минимальное время отдыха между рейсами, мин
+
+control_points:
+  short_term_horizon: 300      # горизонт для подсчёта ближайших рейсов, мин
+
+target_bus_set_size: 8         # размер множества кандидатов (пространство действий)
+
+reward:
+  final_buses: 4.0
+  final_deadhead: 0.1
+  step_unused_penalty: 4.0
+  step_deadhead_penalty: 0.1
+  step_rest_reward: 2.5
+  step_demand_penalty: 1.0
+
+bus_fleet_size: 260            # число доступных автобусов (водителей)
+schedule_data_path: ../../data/schedule_obninsk.json
+
+time_window_minutes: 60        # горизонт планирования холостых поездок (online), мин

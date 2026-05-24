@@ -1,0 +1,4 @@
+episodes: 1000
+display_reward_training_plot: true
+display_policy_changing_plot: false
+checkpoint_folder_name: ppo_offline

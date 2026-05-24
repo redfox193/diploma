@@ -1,0 +1,122 @@
+{
+    "control_points": [
+      {
+        "id": "CP-0",
+        "name": "Экодолье"
+      },
+      {
+        "id": "CP-1",
+        "name": "Промплощадка"
+      },
+      {
+        "id": "CP-2",
+        "name": "АБЗ"
+      },
+      {
+        "id": "CP-3",
+        "name": "ИАТЭ"
+      },
+      {
+        "id": "CP-4",
+        "name": "Кончаловские горы"
+      }
+    ],
+    "deadhead_matrix": {
+      "CP-0": {
+        "CP-0": 0.0,
+        "CP-1": 21.0,
+        "CP-2": 29.0,
+        "CP-3": 28.0,
+        "CP-4": 28.0
+      },
+      "CP-1": {
+        "CP-0": 22.0,
+        "CP-1": 0.0,
+        "CP-2": 25.0,
+        "CP-3": 23.0,
+        "CP-4": 28.0
+      },
+      "CP-2": {
+        "CP-0": 31.0,
+        "CP-1": 25.0,
+        "CP-2": 0.0,
+        "CP-3": 34.0,
+        "CP-4": 28.0
+      },
+      "CP-3": {
+        "CP-0": 30.0,
+        "CP-1": 24.0,
+        "CP-2": 35.0,
+        "CP-3": 0.0,
+        "CP-4": 28.0
+      },
+      "CP-4": {
+        "CP-0": 28.0,
+        "CP-1": 28.0,
+        "CP-2": 28.0,
+        "CP-3": 28.0,
+        "CP-4": 0.0
+      }
+    },
+    "lines": [
+      {
+        "id": "l1",
+        "name": "5230098826",
+        "cp_id_from": "CP-0",
+        "cp_id_to": "CP-1",
+        "travel_time_min": 49.0
+      },
+      {
+        "id": "l2",
+        "name": "5230099476",
+        "cp_id_from": "CP-1",
+        "cp_id_to": "CP-0",
+        "travel_time_min": 49.0
+      },
+      {
+        "id": "l3",
+        "name": "2038063919",
+        "cp_id_from": "CP-2",
+        "cp_id_to": "CP-3",
+        "travel_time_min": 35.0
+      },
+      {
+        "id": "l4",
+        "name": "4327710370",
+        "cp_id_from": "CP-3",
+        "cp_id_to": "CP-2",
+        "travel_time_min": 35.0
+      },
+      {
+        "id": "l5",
+        "name": "2038063927",
+        "cp_id_from": "CP-0",
+        "cp_id_to": "CP-4",
+        "travel_time_min": 50.0
+      },
+      {
+        "id": "l6",
+        "name": "5230348726",
+        "cp_id_from": "CP-4",
+        "cp_id_to": "CP-0",
+        "travel_time_min": 50.0
+      }
+    ],
+    "routes": [
+      {
+        "name": "1",
+        "line_id_A": "l1",
+        "line_id_B": "l2"
+      },
+      {
+        "name": "2",
+        "line_id_A": "l3",
+        "line_id_B": "l4"
+      },
+      {
+        "name": "3",
+        "line_id_A": "l5",
+        "line_id_B": "l6"
+      }
+    ]
+  }

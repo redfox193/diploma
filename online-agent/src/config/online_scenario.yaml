@@ -1,0 +1,33 @@
+disturbances:
+  - kind: interval_delay
+    line_id: "l1"
+    start_minute: 540          # 9:00
+    end_minute: 720            # 12:00
+    delay_minutes: 15          # задержка, мин
+  - kind: interval_delay
+    line_id: "l2"
+    start_minute: 540          # 9:00
+    end_minute: 720            # 12:00
+    delay_minutes: 15          # задержка, мин
+  - kind: interval_delay
+    line_id: "l3"
+    start_minute: 540          # 9:00
+    end_minute: 720            # 12:00
+    delay_minutes: 15          # задержка, мин
+  - kind: interval_delay
+    line_id: "l4"
+    start_minute: 540          # 9:00
+    end_minute: 720            # 12:00
+    delay_minutes: 15          # задержка, мин
+  - kind: interval_delay
+    line_id: "l5"
+    start_minute: 540          # 9:00
+    end_minute: 720            # 12:00
+    delay_minutes: 15          # задержка, мин
+  - kind: interval_delay
+    line_id: "l6"
+    start_minute: 540          # 9:00
+    end_minute: 720            # 12:00
+    delay_minutes: 15          # задержка, мин
+
+offline_checkpoint_path: checkpoints/ppo_offline_best_obninsk/best.pt
